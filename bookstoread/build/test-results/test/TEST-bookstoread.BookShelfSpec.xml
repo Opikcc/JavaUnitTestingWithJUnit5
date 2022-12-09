@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="A bookshelf" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-25T20:00:17" hostname="DESKTOP-EE8FL81" time="0.073">
+<testsuite name="A bookshelf" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-11-26T06:38:47" hostname="DESKTOP-EE8FL81" time="0.125">
   <properties/>
-  <testcase name="books inside bookshelf are grouped by publication year" classname="bookstoread.BookShelfSpec" time="0.073"/>
+  <testcase name="bookshelfArrangedByUserProvidedCriteria()" classname="bookstoread.BookShelfSpec" time="0.078"/>
+  <testcase name="books inside bookshelf are grouped by publication year" classname="bookstoread.BookShelfSpec" time="0.016"/>
+  <testcase name="booksReturnedFromBookShelfIsImmutableForClient()" classname="bookstoread.BookShelfSpec" time="0.006"/>
+  <testcase name="bookshelfArrangedByBookTitle()" classname="bookstoread.BookShelfSpec" time="0.004"/>
+  <testcase name="bookshelfContainsTwoBooksWhenTwoBooksAdded()" classname="bookstoread.BookShelfSpec" time="0.002"/>
+  <testcase name="shelfEmptyWhenNoBookAdded()" classname="bookstoread.BookShelfSpec" time="0.002"/>
+  <testcase name="books inside bookshelf are grouped according to user provided criteria(group by author name)" classname="bookstoread.BookShelfSpec" time="0.002"/>
+  <testcase name="booksInBookShelfAreInInsertionOrderAfterCallingArrange()" classname="bookstoread.BookShelfSpec" time="0.002"/>
+  <testcase name="emptyBookShelfWhenAddIsCalledWithoutBooks()" classname="bookstoread.BookShelfSpec" time="0.001"/>
   <system-out><![CDATA[Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
+Working on test A bookshelf
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
